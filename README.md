@@ -1,35 +1,34 @@
-# javascript-foundations
-Practical JavaScript exercises and mini-projects — building a strong foundation before transitioning into Solidity and Web3 smart-contract development.
+# JavaScript Foundations
 
-# JavaScript Foundations 🚀
-
-Hands-on JavaScript exercises and mini-projects to master core programming logic before moving into **Solidity** and **Web3** development.
+This repository documents my daily progress while learning JavaScript fundamentals through FreeCodeCamp and other practical resources.  
+The goal is to build a strong foundation in programming before moving into Solidity and smart contract development.
 
 ---
 
-## 📚 Chapters Covered
-| Chapter | Focus Area                  | Status |
-|---------|---------------------------- |--------|
-| 1       | What is JavaScript          | ✅ Done |
-| 2       | Data Types & Variables      | 🔄 In Progress|
-| 3       | Arrays                      | ⏳ Upcoming |
-| 4       | Objects                     | ⏳ Upcoming |
-| 6       | Conditionals & Loops        | ⏳ Upcoming |
-| 8       | Functions                   | ⏳ Upcoming |
-| 12      | Object-Oriented Programming | ⏳ Upcoming |
+## About This Repository
+
+I’m using this space to track what I learn each day, write small code examples, and keep notes that will help me understand JavaScript deeply.  
+All code here is written by me while completing exercises, experimenting, and building small projects.
 
 ---
 
-## 🧠 Goals
-- Strengthen programming fundamentals  
-- Prepare for Solidity smart-contract development  
-- Maintain consistent GitHub activity  
-- Build a portfolio that attracts Web3 recruiters  
+## My Learning Goals
+- Build a clear understanding of JavaScript syntax and logic.  
+- Learn how to work with variables, functions, arrays, and objects.  
+- Write simple projects using DOM manipulation and events.  
+- Prepare for Solidity smart contract development.
 
 ---
 
-## 🛠️ Tech Stack
-- JavaScript (ES6)
-- Node.js (for running scripts)
-- Git & GitHub
-- VS Code
+## Daily Progress (short summary)
+
+**Oct 25–26, 2025**  
+I completed my first two days of FreeCodeCamp’s Basic JavaScript section.  
+Learned how variables work, practiced assignment and arithmetic operators, and worked with simple string concatenations.  
+Also practiced using `console.log()` to print and debug code.
+
+---
+
+## Folder Structure
+
+
