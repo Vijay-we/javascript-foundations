@@ -29,6 +29,40 @@ Also practiced using `console.log()` to print and debug code.
 
 ---
 
-## Folder Structure
+# Week 1 - JavaScript Basics (FreeCodeCamp Units #11–16)
+
+This section covers the basic arithmetic operators in JavaScript, including addition, subtraction, multiplication, division, and increment/decrement operations.
+
+## Lessons Completed
+1. Add Two Numbers (+)
+2. Subtract One Number from Another (-)
+3. Multiply Two Numbers (*)
+4. Divide One Number by Another (/)
+5. Increment a Number (++)
+6. Decrement a Number (--)
+
+Completion Date: October 27, 2025  
+Next Goal: Work with decimals, remainders, and compound assignments (Units #17–22)
+
+## Key Takeaways
+- Learned to use arithmetic operators in JavaScript.
+- Practiced increment and decrement syntax.
+- Verified results using console.log().
+- Built a foundation for numeric logic in JavaScript.
+
+## How to Run
+```bash
+node index.js
+----
+Expected Output
+Sum: 15
+Difference: 12
+Product: 80
+Quotient: 2
+After Increment: 88
+After Decrement: 9
+----
+Reflection 
+This exercise helped reinforce how JavaScript handles arithmetic operations and variable updates.
 
 
