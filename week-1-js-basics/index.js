@@ -58,3 +58,20 @@ console.log("After Decrement:", countDown); // 9
 // Practiced basic arithmetic operators and increment/decrement syntax.
 
 
+// FCC #17–18: Decimals & Remainder
+
+// Create Decimal Numbers with JavaScript
+var myDecimal = 2.5;
+
+// Multiply Two Decimals with JavaScript
+var product = 2.0 * 2.5;
+
+// Divide One Decimal by Another with JavaScript
+var quotient = 4.4 / 2.0;
+
+// Find the Remainder in JavaScript
+const remainder = 14 % 4; // remainder = 2
+
+console.log({ myDecimal, product, quotient, remainder });
+
+
