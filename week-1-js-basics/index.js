@@ -75,3 +75,25 @@ const remainder = 14 % 4; // remainder = 2
 console.log({ myDecimal, product, quotient, remainder });
 
 
+// FCC #19–22: Compound (Augmented) Assignment Operators
+
+// +=
+let a = 10;
+a += 5;   // 15
+
+// -=
+let b = 20;
+b -= 4;   // 16
+
+// *=
+let c = 3;
+c *= 7;   // 21
+
+// /=
+let d = 40;
+d /= 5;   // 8
+
+console.log({ a, b, c, d });
+
+
+
