@@ -66,3 +66,16 @@ Reflection
 This exercise helped reinforce how JavaScript handles arithmetic operations and variable updates.
 
 
+## FreeCodeCamp JavaScript Progress – Lessons 17–18
+
+**Topics Covered**
+- Working with decimal (floating point) numbers
+- Performing arithmetic with decimals (multiply/divide)
+- Using the modulus (%) operator to find remainders
+
+**Example Output**
+```bash
+{ myDecimal: 2.5, product: 5, quotient: 2.2, remainder: 2 }
+
+
+
