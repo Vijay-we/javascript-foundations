@@ -78,4 +78,53 @@ This exercise helped reinforce how JavaScript handles arithmetic operations and 
 { myDecimal: 2.5, product: 5, quotient: 2.2, remainder: 2 }
 
 
+FCC #19–22: Compound Assignment Operators (+=, −=, *=, /=)
+
+Today I practiced the compound (augmented) assignment operators in JavaScript.
+These operators are shorthand ways to update variable values without rewriting the variable name on both sides of the expression.
+
+I worked through four main exercises:
+
++= (Augmented Addition) – adds and reassigns the result.
+
+−= (Augmented Subtraction) – subtracts and reassigns.
+
+*= (Augmented Multiplication) – multiplies and reassigns.
+
+/= (Augmented Division) – divides and reassigns.
+
+Each operation helps make code cleaner and easier to maintain.
+
+What I Learned
+
+How to use arithmetic shorthand to write more efficient code.
+
+The difference between normal assignment (x = x + y) and compound assignment (x += y).
+
+Practiced reading console outputs to verify updated variable values.
+
+let a = 10;
+a += 5;   // 15
+
+let b = 20;
+b -= 4;   // 16
+
+let c = 3;
+c *= 7;   // 21
+
+let d = 40;
+d /= 5;   // 8
+
+console.log({ a, b, c, d });
+
+Console Output:
+
+{ a: 15, b: 16, c: 21, d: 8 }
+
+Date Completed
+ October 29, 2025
+
+
+
+
 
