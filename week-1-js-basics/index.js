@@ -95,5 +95,43 @@ d /= 5;   // 8
 
 console.log({ a, b, c, d });
 
+// FCC #23–29: Escape Sequences, Quotes, and String Concatenation
+// Author: Vijay Uppala
+// Date: October 30, 2025
+
+// Using escape sequences to format text
+const myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
+
+// Working with quotes inside strings
+const quoteStr = "I am a 'Web3 Developer' and I love learning \"JavaScript\" daily.";
+
+// Concatenating strings using + operator
+const concatStr = "Learning JavaScript " + "step by step is powerful!";
+
+// Concatenating with += operator
+let extendedStr = "This journey ";
+extendedStr += "will take me to Solidity mastery.";
+
+// Display all results
+console.log("=== Escape Sequences Example ===");
+console.log(myStr);
+console.log("\n=== Quotes Example ===");
+console.log(quoteStr);
+console.log("\n=== Concatenation Examples ===");
+console.log(concatStr);
+console.log(extendedStr);
+
+## Console Output
+=== Escape Sequences Example ===
+FirstLine
+    \SecondLine
+ThirdLine
+
+=== Quotes Example ===
+I am a 'Web3 Developer' and I love learning "JavaScript" daily.
+
+=== Concatenation Examples ===
+Learning JavaScript step by step is powerful!
+This journey will take me to Solidity mastery.
 
 
