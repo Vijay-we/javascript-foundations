@@ -125,6 +125,37 @@ Date Completed
  October 29, 2025
 
 
+###  FCC #23–29: Escape Sequences, Quotes, and String Concatenation
+
+Today I practiced handling text and quotes inside JavaScript strings, and learned how escape characters make strings more flexible and readable.
+
+####  What I Learned
+- How to use **escape sequences** like `\n`, `\t`, and `\\` to format text.
+- The difference between using **single ('')** and **double ("")** quotes.
+- How to **concatenate** strings using `+` and `+=`.
+- How to build multi-line strings that display correctly in the console.
+- Why consistent formatting and escaping are critical when writing long smart-contract logs or data outputs.
+
+####  Example Code
+```js
+const myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
+
+let quoteStr = "I am a 'Web3 Developer' and I love learning \"JavaScript\" daily.";
+let concatStr = "Learning JavaScript " + "step by step is powerful!";
+let extendedStr = "This journey " += "will take me to Solidity mastery.";
+
+console.log(myStr);
+console.log(quoteStr);
+console.log(concatStr);
+console.log(extendedStr);
+
+Date Completed
+
+October 30, 2025
+
+## Personal Reflection
+
+This section helped me understand how JavaScript handles text at a deeper level — something that will later help me format smart-contract messages and user-facing strings. Every FCC exercise adds another piece to my foundation for becoming a professional Solidity developer.
 
 
 
