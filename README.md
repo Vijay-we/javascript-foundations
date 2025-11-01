@@ -159,3 +159,48 @@ This section helped me understand how JavaScript handles text at a deeper level 
 
 
 
+
+FreeCodeCamp JavaScript Foundations – FCC #30–37 
+
+Today I practiced constructing and appending strings, checking their length, and accessing characters using bracket indexing.
+I also learned that JavaScript strings are immutable—they can’t be changed one letter at a time; instead, a whole new string must be assigned.
+
+What I Learned
+How to construct and append strings using + and +=.
+How to find the length of a string using .length.
+How to use bracket notation to access specific characters.
+Why strings are immutable and what that means in practice.
+How to combine these ideas to build cleaner, more predictable code.
+
+const firstName = "Ada";
+const lastName = "Lovelace";
+
+let fullName = firstName + " " + lastName;
+console.log("Full Name:", fullName);
+
+console.log("Length of last name:", lastName.length);
+
+console.log("First letter of last name:", lastName[0]);
+console.log("Last letter of last name:", lastName[lastName.length - 1]);
+
+let word = "Jello World";
+// Strings are immutable — cannot change characters directly.
+word = "Hello World";
+console.log("Updated word:", word);
+
+Console Output:
+Full Name: Ada Lovelace
+Length of last name: 8
+First letter of last name: L
+Last letter of last name: e
+Updated word: Hello World
+
+Personal Reflection
+
+These lessons helped me understand how JavaScript handles text and memory.
+Knowing that strings are immutable made me think differently about how data changes in code.
+It’s a key concept that connects directly to Solidity and blockchain programming, where immutability also matters.
+
+Date Completed
+October 31, 2025
+
