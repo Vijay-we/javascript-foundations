@@ -135,3 +135,51 @@ Learning JavaScript step by step is powerful!
 This journey will take me to Solidity mastery.
 
 
+
+// FCC #30–37: Construct, Append, Length, Bracket Indexing & Immutability
+// Date: October 31, 2025
+
+// Constructing and appending strings
+const firstName = "Ada";
+const lastName = "Lovelace";
+
+let fullName = firstName + " " + lastName;
+console.log("Full Name:", fullName);
+
+// Using .length to count characters
+console.log("Length of last name:", lastName.length);
+
+// Accessing specific characters with bracket notation
+console.log("First letter of last name:", lastName[0]);
+console.log("Last letter of last name:", lastName[lastName.length - 1]);
+
+// Understanding string immutability
+let word = "Jello World";
+
+// Strings are immutable — we can't change individual characters directly.
+// word[0] = "H"; ❌ This would not work.
+
+word = "Hello World"; // ✅ Reassign the entire string instead.
+console.log("Updated word:", word);
+
+// Example combining all concepts
+const message =
+  "My name is " +
+  fullName +
+  ", which has " +
+  fullName.length +
+  " characters in total.";
+
+console.log(message);
+
+Console Output
+Full Name: Ada Lovelace
+Length of last name: 8
+First letter of last name: L
+Last letter of last name: e
+Updated word: Hello World
+My name is Ada Lovelace, which has 12 characters in total.
+
+
+
+
